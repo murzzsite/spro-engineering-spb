@@ -231,3 +231,12 @@ input[type=range]::-moz-range-thumb{width:20px;height:20px;border-radius:50%;bac
   .flow,.ring{animation:none}
   .st,.pop,.calc__bar i{transition:none}
 }
+
+.head__tel{margin-left:auto;font-weight:600;font-size:15px;text-decoration:none;white-space:nowrap;color:var(--ink)}
+.btn--call{display:none}
+.contact__tel{margin-top:14px;font-size:20px;font-weight:600}
+.contact__tel a{text-decoration:none}
+.contact__addr{margin-top:8px;color:var(--muted)}
+.footer__in a{color:inherit}
+@media (max-width:900px){.head__tel{display:none}}
+@media (max-width:760px){.btn--call{display:inline-flex}}

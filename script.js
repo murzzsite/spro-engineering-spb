@@ -1,6 +1,6 @@
 const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/RMQARYPYMG';
 // Ссылка на бота-игру (гайд). После переноса бота на аккаунт клиента поменять только здесь.
-const BOT_LINK = 'https://t.me/trip_wire_super_bot?start=1bb9c3120cb2';
+const BOT_LINK = 'https://t.me/psv_mont_bot';
 
 (() => {
   const $ = (s, r = document) => r.querySelector(s);
@@ -125,7 +125,7 @@ const BOT_LINK = 'https://t.me/trip_wire_super_bot?start=1bb9c3120cb2';
     if (!payload.consent) { msg.textContent = 'Нужно согласие на обработку персональных данных'; msg.classList.add('err'); return; }
     delete payload.consent;
     if (!payload.calc) delete payload.calc;
-    payload.source = 'Инженерные системы под ключ - лендинг';
+    payload.source = 'Теплый дом - лендинг';
     btn.disabled = true;
     btn.textContent = 'Отправляем...';
     try {
